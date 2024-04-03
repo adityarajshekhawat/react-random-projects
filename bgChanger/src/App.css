@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+}
+
+button {
+  animation: Logo-spin 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  border-radius: 5vh;
+  width: 80px;
+  height: 40px;
+  /* border: 1px solid black; */
+}
+
+button:hover {
+  scale: 1.05;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
